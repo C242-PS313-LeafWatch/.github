@@ -26,6 +26,16 @@ PostgreSQL: Database management for user and detection history.
 Android Studio: Development environment for building the app.
 Kotlin: Programming language for app development.
 
+
+## Documentation
+### Machine learning
+#### Plant Disease Detection
+This model is designed to identify plant diseases from images using transfer learning technique. By analyzing patterns, textures, and visual symptoms in plant images, the model provides accurate diagnoses of 38 possible classification. 
+
+#### model details
+Architecture: using MobilenetV3Large as our base model and adding our own Dense layers for efficent image classification
+Dataset: Trained on a large image dataset of 38 different plant diseases found in kaggle
+
 ## Group Members
 1. Muhammad zharfan
 2. Muhammad Arfian Praniza 
