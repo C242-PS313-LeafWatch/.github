@@ -34,6 +34,7 @@ This model is designed to identify plant diseases from images using transfer lea
 
 #### model details
 Architecture: using MobilenetV3Large as our base model and adding our own Dense layers for efficent image classification
+
 Dataset: Trained on a large image dataset of 38 different plant diseases found in kaggle
 
 ## Group Members
