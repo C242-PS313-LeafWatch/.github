@@ -42,7 +42,7 @@ Dataset: Trained on a large image dataset of 38 different plant diseases found i
 ### Mobile Development
 
 ## Group Members
-1. Muhammad zharfan
+1. Muhammad Zharfan
 2. Muhammad Arfian Praniza 
 3. Muhammad Faizal Pratama 
 4. Alzena Cikal Bhagaskara 
