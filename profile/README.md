@@ -25,10 +25,10 @@ Flask: Backend development for API integration.
 PostgreSQL: Database management for user and detection history.
 
 ### Mobile Development
-Android Studio: Development environment for building the app.  
-Kotlin: Programming language for app development.
-Dependencies/libraries: Room, Retrofit, Glide.
-Design: Figma.
+- **Android Studio**: Development enviroment for building the app.
+- **Kotlin**: Programming language for app development.
+- **Dependencies/libraries**: Room, Retrofit, Datastore, Glide.
+- **Design**: Figma.
 
 
 ## Documentation
