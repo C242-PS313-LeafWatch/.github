@@ -40,6 +40,7 @@ Dataset: Trained on a large image dataset of 38 different plant diseases found i
    
 ### Cloud Computing
 ### Mobile Development
+This application has the main feature of sending files in the form of images to a model stored in the cloud and displays the results of the analysis and recommendations for treatment videos from YouTube. Dependencies used are Retrofit, Gson, Room, LiveData, and LiveModel
 
 
 ## Further Development
