@@ -37,9 +37,15 @@ This model is designed to identify plant diseases from images using transfer lea
 #### model details
 Architecture: using MobilenetV3Large as our base model and adding our own Dense layers for efficent image classification  
 Dataset: Trained on a large image dataset of 38 different plant diseases found in kaggle
-
+   
 ### Cloud Computing
 ### Mobile Development
+
+
+## Further Development
+1. chatbot implementation: users will be able to consult about their plant disease problem in our app
+2. designated courses: partnership with farmers will allow us to create our own courses which will include videos about plant diseases that we created
+
 
 ## Group Members
 1. Muhammad Zharfan
