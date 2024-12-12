@@ -27,6 +27,8 @@ PostgreSQL: Database management for user and detection history.
 ### Mobile Development
 Android Studio: Development environment for building the app.  
 Kotlin: Programming language for app development.
+Dependencies/libraries: Room, Retrofit, Glide.
+Design: Figma.
 
 
 ## Documentation
@@ -39,8 +41,11 @@ Architecture: using MobilenetV3Large as our base model and adding our own Dense 
 Dataset: Trained on a large image dataset of 38 different plant diseases found in kaggle
    
 ### Cloud Computing
-### Mobile Development
 
+
+### Mobile Development
+This application was developed with the MVVM (Model-View-ViewModel) architecture which aims to ensure application development runs in a modular, structured manner and makes further development easier. 
+This application has several features that are directly connected to the API, such as login, sign up and photo scanning features for results. We also use Room Database as local storage to store data from history
 
 ## Further Development
 1. chatbot implementation: users will be able to consult about their plant disease problem in our app
