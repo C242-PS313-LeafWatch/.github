@@ -13,16 +13,16 @@ General Information on Plant Diseases: A library of resources covering common pl
 
 ## Technology Stack
 ### Machine Learning
-TensorFlow: For building the image recognition model.  
-Kaggle: Dataset sourcing and preprocessing.  
-Keras: High-level API for efficient ML model development.  
-Python: For scripting, model training, and integration.
+- **TensorFlow**: For building the image recognition model.  
+- **Kaggle**: Dataset sourcing and preprocessing.  
+- **Keras**: High-level API for efficient ML model development.  
+- **Python**: For scripting, model training, and integration.
 
 ### Cloud Computing
-Postman: API testing and development.  
-Google Cloud Platform (GCP): Hosting and deploying the ML model and app backend.  
-Flask: Backend development for API integration.  
-PostgreSQL: Database management for user and detection history.
+- **Postman**: API testing and development.  
+- **Google Cloud Platform (GCP)**: Hosting and deploying the ML model and app backend.  
+- **Flask, Express**: Backend development for API integration.  
+- **PostgreSQL**: Database management for user.
 
 ### Mobile Development
 - **Android Studio**: Development enviroment for building the app.
@@ -41,7 +41,20 @@ Architecture: using MobilenetV3Large as our base model and adding our own Dense 
 Dataset: Trained on a large image dataset of 38 different plant diseases found in kaggle
    
 ### Cloud Computing
-
+#### Backend
+The backend for the Plant Disease Detection application was developed using the Flask framework and for authentication using Express.js. 
+#### Deployment
+The backend, including pre-trained machine learning models, is deployed in Google Cloud Run. Cloud Run allows the backend to scale automatically based on incoming requests, ensuring efficient use of resources and handling varying levels of traffic. 
+#### API Endpoints
+The backend exposes secure API endpoints for mobile applications to interact with the cloud services. These endpoints include:
+**1. User Authentication and Authorization**
+- POST /users for registration
+- POST /login for login user
+- GET /profile for view the profile
+- DELETE /logout for exit the app
+**2. Image Upload and Disease Detection**
+- POST /predict/upload: Used for detecting plant diseases from an image file that is either captured or uploaded from the gallery.
+- POST /predict/base64: Used for detecting plant diseases from a live scan image, sent as a Base64-encoded string.
 
 ### Mobile Development
 This application was developed with the MVVM (Model-View-ViewModel) architecture which aims to ensure application development runs in a modular, structured manner and makes further development easier. 
@@ -53,10 +66,12 @@ This application has several features that are directly connected to the API, su
 
 
 ## Group Members
-1. Muhammad Zharfan
-2. Muhammad Arfian Praniza 
-3. Muhammad Faizal Pratama 
-4. Alzena Cikal Bhagaskara 
-5. Radinda Putri Salsabila 
-6. Bagus Abdul Wahhab
-7. Banu Eka Prayoga 
+| Name                          | Bangkit ID     | Learning Path       |
+|-------------------------------|----------------|---------------------|
+| Muhammad Arfian Praniza       | M229B4KY2737   | Machine Learning    |
+| Muhammad Faizal Pratama       | M753B4KY2814   | Machine Learning    |
+| Muhammad Zharfan              | M476B4KY3134   | Machine Learning    |
+| Alzena Cikal Bhagaskara       | C249B4KY0444   | Cloud Computing     |
+| Radinda Putri Salsabila       | C249B4KX3568   | Cloud Computing     |
+| Bagus Abdul Wahhab            | A622B4KY0791   | Mobile Development  |
+| Banu Eka Prayoga              | A622B4KY0811   | Mobile Development  |
