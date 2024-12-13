@@ -37,8 +37,8 @@ General Information on Plant Diseases: A library of resources covering common pl
 This model is designed to identify plant diseases from images using transfer learning technique. By analyzing patterns, textures, and visual symptoms in plant images, the model provides accurate diagnoses of 38 possible classification. 
 
 #### model details
-Architecture: using MobilenetV3Large as our base model and adding our own Dense layers for efficent image classification  
-Dataset: Trained on a large image dataset of 38 different plant diseases found in kaggle
+* Architecture: using MobilenetV3Large as our base model and adding our own Dense layers for efficent image classification  
+* Dataset: Trained on a large image dataset of 38 different plant diseases found in kaggle
    
 ### Cloud Computing
 #### Backend
@@ -59,6 +59,14 @@ The backend exposes secure API endpoints for mobile applications to interact wit
 ### Mobile Development
 This application was developed with the MVVM (Model-View-ViewModel) architecture which aims to ensure application development runs in a modular, structured manner and makes further development easier. 
 This application has several features that are directly connected to the API, such as login, sign up and photo scanning features for results. We also use Room Database as local storage to store data from history
+
+#### Dependencies/Library
+* Retrofit
+* Room
+* Data store
+* Glide
+* Viewmodel
+* Livedata 
 
 ## Further Development
 1. chatbot implementation: users will be able to consult about their plant disease problem in our app
